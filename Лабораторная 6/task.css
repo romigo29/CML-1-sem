@@ -1,0 +1,23 @@
+.i1 {
+    
+            width: 550px;
+            height: 300px;
+        }
+
+        .i2 {
+            transform: rotate(45deg);
+            width: 550px;
+            height: 300px;
+        }
+
+        .i3 {
+            transform: translate(50px);
+            width: 550px;
+            height: 300px;
+        }
+
+        .i4 {
+            transform: skew(-20deg);
+            width: 550px;
+            height: 300px;
+        }

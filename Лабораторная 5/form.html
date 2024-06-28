@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Форма </title>
+    <style>
+        form {
+            background-color: indigo;
+            color: snow;
+            padding-left: 20px;
+            padding-top: 1px;
+            padding-bottom: 20px;
+            font-size: 1.2em;
+            width: 500px;
+        }
+
+        label {
+            display: inline-block;
+            width: 175px;
+            padding-right: 15px;
+            text-align: left;
+            padding-bottom: 15px;
+        }
+
+
+
+        input[type=email],
+        input[type=text] {
+
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            width: 249px;
+
+        }
+
+        input[type=text]:focus {
+            background-color: black;
+            color: black;
+        }
+
+        button {
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            color: rgba(255, 255, 255, 1);
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>Регистрация постоянного клиента</h2>
+        <label for="lastname">Фамилия: </label>
+        <input id="lastname" type="text"><br>
+        <label for="name">Имя: </label>
+        <input id="name" type="text"><br>
+        <label for="surname">Отчество: </label>
+        <input id="surname" type="text"><br>
+        <label for="age">Ваш возраст</label>
+        <input id="age" type="text"><br>
+        <label for="sex">Пол:</label>
+        <input id="sex" type="checkbox"> мужской
+        <input id="sex" type="checkbox"> женский<br>
+        <label for="email">Email:</label>
+        <input id="email" type="email"><br>
+        <label for="home">Страна проживания: </label>
+        <input id="home" type="text"><br>
+        <label for="source">Откуды вы узнали о нас? </label>
+        <select id="source">
+            <option>Выберите вариант</option>
+            <option value="u1">Друзья, родственники, коллеги</option>
+            <option value="u2">Интернет</option>
+            <option value="u3">Лабораторная работа №5</option>
+        </select><br>
+        <label for="date">Дата заполнения:</label>
+        <input id="date" type="date"><br>
+        <label id="registration"></label>
+        <button id="registration" type="submit">Регистрация</button>
+        <button id="cancel" type="reset">Отмена</button>
+
+
+
+
+    </form>
+
+</body>
+
+</html>

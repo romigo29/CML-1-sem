@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    justify-content: center;
+    perspective: 800px;
+}
+
+.p1 {
+    transform: rotateX(30deg);
+}
+
+.p2 {
+    transform: rotateY(40deg);
+}
+
+.p3 {
+    transform: rotateX(30deg);
+}
+
+.p4 {
+    transform: rotateY(-40deg);
+}
