@@ -1,0 +1,27 @@
+@import "./blocks/nav";
+@import "./blocks/footer";
+@import "./blocks/article";
+@import "./blocks/aside";
+@import "./blocks/main";
+@import "./blocks/values";
+
+
+
+
+@function p_size($hsize) {
+    @if($hsize >=15px) {
+        @return $hsize + 5px;
+    }
+
+    @else {
+        @return $hsize - 5px;
+    }
+}
+
+h1 {
+    font-size: $hsize;
+}
+
+p {
+    font-size: p_size($hsize);
+}

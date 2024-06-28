@@ -1,0 +1,41 @@
+%rose-color {
+    background-color: mistyrose;
+}
+
+%snow-color {
+    background-color: snow;
+}
+
+%seashell-color {
+    background-color: seashell;
+}
+
+aside {
+    border: 1px black solid;
+    font-size: 19px;
+    @extend %rose-color;
+}
+
+div.aside {
+    display: grid;
+    grid-template-areas:
+        'form form form'
+        'head head head'
+        'pic1 text1 text1'
+        'pic2 text2 text2';
+    grid-gap: 20px;
+    margin: 10px;
+}
+
+
+form {
+    width: auto;
+    border: 1px dotted;
+    @extend %snow-color;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    @extend %seashell-color;
+}

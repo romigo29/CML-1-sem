@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="forXML.css"?>
+<products
+xmlns:xsi="http://www.w3.org/2001/XMLSchema_instance"
+xsi:noNamespaceSchemaLocation="sxeme.xml"
+>
+    <model>
+        <name> 
+         Apple iPhone 13
+        </name>
+        <technique>
+        Последняя версия флагманского смартфона Apple, известного своей впечатляющей системой камер, мощным чипом A15 Bionic и ярким OLED-дисплеем
+        </technique>
+        <price>
+        Price: 999.99 dollars
+        </price>
+    </model>
+
+    <model>
+        <name> 
+        55-дюймовый QLED Smart-телевизор Samsung
+        </name>
+        <technique>
+       Высококачественный телевизор с технологией квантовых точек, обеспечивающий яркие цвета, превосходную контрастность и интеллектуальные функции для потоковой передачи и подключения
+        </technique>
+        <price>
+        Price: 1499.99 dollars
+        </price>
+    </model>
+
+    <model>
+        <name> 
+         Мультиварка Instant Pot Duo Plus
+        </name>
+        <technique>
+       универсальная мультиварка, сочетающая в себе несколько кухонных приборов и обладающая такими функциями, как приготовление под давлением, медленное приготовление, приготовление на пару и многое другое
+        </technique>
+        <price>
+        Price: 999.99 dollars
+        </price>
+    </model>
+
+    <model>
+        <name> 
+         Портативное зарядное устройство Anker PowerCore
+        </name>
+        <technique>
+        компактный и мощный блок питания для зарядки смартфонов, планшетов и других устройств в дороге, известный своей надежностью и быстрой зарядкой
+        </technique>
+        <price>
+        Price: 69.99 dollars
+        </price>
+    </model>
+
+    <model>
+        <name> 
+         Электронная книга Kindle Paperwhite
+        </name>
+        <technique>
+        популярная электронная книга Amazon с дисплеем высокого разрешения, регулируемой передней подсветкой и водонепроницаемым дизайном, идеально подходящая для любителей книг
+        </technique>
+        <price>
+        Price: 9.99 dollars
+        </price>
+    </model>
+    
+</products>

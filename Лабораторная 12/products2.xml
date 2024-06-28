@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<?xml-stylesheet type="text/css" href="forXML.css"?>
+<!DOCTYPE products [
+    <!ENTITY productPhone "Apple iPhone 13">
+    <!ENTITY productTV "55-дюймовый QLED Smart-телевизор Samsung">
+    <!ENTITY productMultivar "Мультиварка Instant Pot Duo Plus">
+    <!ENTITY productPowerbank "Портативное зарядное устройство Anker PowerCore">
+    <!ENTITY productBook "Электронная книга Kindle Paperwhite">
+
+    <!ENTITY descriptionPhone "Последняя версия флагманского смартфона Apple, известного своей впечатляющей системой камер, мощным чипом A15 Bionic и ярким OLED-дисплеем">
+    <!ENTITY descriptionTV "Высококачественный телевизор с технологией квантовых точек, обеспечивающий яркие цвета, превосходную контрастность и интеллектуальные функции для потоковой передачи и подключения">
+    <!ENTITY descriptionMultivar "универсальная мультиварка, сочетающая в себе несколько кухонных приборов и обладающая такими функциями, как приготовление под давлением, медленное приготовление, приготовление на пару и многое другое">
+    <!ENTITY descriptionPowerbank "компактный и мощный блок питания для зарядки смартфонов, планшетов и других устройств в дороге, известный своей надежностью и быстрой зарядкой">
+    <!ENTITY descriptionBook "популярная электронная книга Amazon с дисплеем высокого разрешения, регулируемой передней подсветкой и водонепроницаемым дизайном, идеально подходящая для любителей книг">
+
+
+    <!ENTITY pricePhone "Price: $999.99">
+    <!ENTITY priceTV "Price: $1499.99">
+    <!ENTITY priceMultivar "Price: $999.99">
+    <!ENTITY pricePowerbank "Price: $69.99">
+    <!ENTITY priceBook "Price: $9.99">
+
+]>
+
+<products>
+
+    <model>
+        <name> &productPhone; </name>
+        <technique> &descriptionPhone; </technique>
+        <price >&pricePhone; </price>
+    </model>
+
+    <model>
+        <name> &productTV; </name>
+        <technique> &descriptionTV; </technique>
+        <price> &priceTV; </price>
+    </model>
+
+    <model>
+        <name> &productMultivar; </name>
+        <technique> &descriptionMultivar; </technique>
+        <price> &priceMultivar; </price>
+    </model>
+
+    <model>
+        <name> &productPowerbank; </name>
+        <technique> &descriptionPowerbank; </technique>
+        <price> &pricePowerbank; </price>
+    </model>
+
+    <model>
+        <name> &productBook; </name>
+        <technique> &descriptionBook; </technique>
+        <price> &priceBook; </price>
+    </model>
+    
+</products>

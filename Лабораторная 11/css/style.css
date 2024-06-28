@@ -1,0 +1,112 @@
+nav {
+  background-color: navajowhite;
+}
+
+nav {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+  border: 3px;
+  background-color: snow;
+  border: 2px solid crimson;
+  font-size: 16px;
+  height: 30px;
+  width: 180px;
+  text-align: center;
+  padding-top: 15px;
+  margin-right: -10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: blanchedalmond;
+  padding: 10px;
+  border: 1px black solid;
+}
+
+article {
+  background-color: honeydew;
+}
+
+article {
+  border: 1px black solid;
+  margin: 10px;
+}
+
+aside {
+  background-color: mistyrose;
+}
+
+form {
+  background-color: snow;
+}
+
+button {
+  background-color: seashell;
+}
+
+aside {
+  border: 1px black solid;
+  font-size: 19px;
+}
+
+div.aside {
+  display: grid;
+  grid-template-areas: "form form form" "head head head" "pic1 text1 text1" "pic2 text2 text2";
+  grid-gap: 20px;
+  margin: 10px;
+}
+
+form {
+  width: auto;
+  border: 1px dotted;
+  padding: 10px;
+  margin: 5px;
+}
+
+body {
+  font-family: Comic Sans MS;
+}
+
+div.grid {
+  display: grid;
+  grid-gap: 20px;
+  margin: 10px;
+  grid-template-areas: "nav nav nav" "article article aside" "article article aside" "footer footer footer";
+}
+
+div.main1 {
+  display: grid;
+  grid-gap: 20px;
+  margin: 10px;
+  grid-template-areas: "head head head" "text1 text2 text3";
+}
+
+div.main2 {
+  display: grid;
+  grid-gap: 20px;
+  margin: 10px;
+  grid-template-areas: "head head head head" "pic1 pic2 pic3 pic4";
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */

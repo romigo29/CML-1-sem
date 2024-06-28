@@ -1,0 +1,29 @@
+name {
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px;
+
+}
+
+technique {
+    display: block;
+    font-size: 18px;
+    margin: 10px;
+}
+
+price {
+    display: block;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+model {
+    display: block;
+    border: 1px solid black;
+    width: 600px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

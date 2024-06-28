@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="accreditation.xsl"?>
+
+
+<accreditation>
+
+    <list>Student list</list>
+
+    <student rollno="1">
+        <name>Варвара</name>
+        <bel>10</bel>
+        <eng>3</eng>
+        <math>2</math>
+    </student>
+
+    <student rollno="2">
+        <name>Иван</name>
+        <bel>7</bel>
+        <eng>5</eng>
+        <math>2</math>
+    </student>
+
+    <student rollno="3">
+        <name>Федор</name>
+        <bel>4</bel>
+        <eng>7</eng>
+        <math>6</math>
+    </student>
+
+    <student rollno="4">
+        <name>Роман</name>
+        <bel>10</bel>
+        <eng>3</eng>
+        <math>8</math>
+    </student>
+
+    <student rollno="5">
+        <name>Стефания</name>
+        <bel>9</bel>
+        <eng>10</eng>
+        <math>9</math>
+    </student>
+
+</accreditation>

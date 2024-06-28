@@ -1,0 +1,10 @@
+%honeydew-color {
+    background-color: honeydew;
+}
+
+article {
+    @extend %honeydew-color;
+    border: 1px black solid;
+    margin: 10px;
+}
+

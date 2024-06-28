@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="products">
+<xsd:complexType>
+<xsd:sequence>
+    <xsd:element name="model" type="xs:string">
+    <xsd:element name="name" type="xs:string">
+    <xsd:element name="technique" type="xs:string">
+    <xsd:element name="price" type="xs:string">
+    
+    <xsd:element name="model" type="xs:string">
+    <xsd:element name="name" type="xs:string">
+    <xsd:element name="technique" type="xs:string">
+    <xsd:element name="price" type="xs:string">
+
+    <xsd:element name="model" type="xs:string">
+    <xsd:element name="name" type="xs:string">
+    <xsd:element name="technique" type="xs:string">
+    <xsd:element name="price" type="xs:string">
+    
+    <xsd:element name="model" type="xs:string">
+    <xsd:element name="name" type="xs:string">
+    <xsd:element name="technique" type="xs:string">
+    <xsd:element name="price" type="xs:string">
+
+    <xsd:element name="model" type="xs:string">
+    <xsd:element name="name" type="xs:string">
+    <xsd:element name="technique" type="xs:string">
+    <xsd:element name="price" type="xs:string">
+
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>   
+
+    
