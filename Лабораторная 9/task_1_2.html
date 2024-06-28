@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS3 (task1_2)</title>
+    <style>
+        .grid {
+            font-family: "Comic Sans MS";
+            display: grid;
+            grid-template-columns: 20fr 20fr 1fr;
+            grid-auto-rows: minmax(200px, auto);
+            grid-gap: 10px;
+            text-align: center;
+
+        }
+
+        .mint {
+            background-color: honeydew;
+            grid-row: 1/3;
+        }
+
+        .antique {
+            background-color: AntiqueWhite;
+            grid-column: 2/3;
+
+        }
+
+        .rose {
+            background-color: mistyrose;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        .header {
+            background-color: peachpuff;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            grid-row: 1/3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="mint">Спецификация CSS3 — это неоспоримое будущее в области декоративного оформления веб-страниц,
+            и ее разработка еще далека от завершения. Большинство модулей все еще продолжает совершенствоваться и
+            модифицироваться, и ни один браузер не поддерживает все модули. Это означает, что CSS3 испытывает такие же
+            сложности, как и HTML5. Веб-разработчикам нужно решать, какие возможности использовать, а какие
+            игнорировать, а также каким образом заполнить зияющие пробелы в браузерной поддержке.
+
+            Спецификация CSS3 не является частью спецификации HTML5. Эти два стандарта были разработаны отдельно друг от
+            друга, разными людьми, работающими в разное время в различных местах. Но даже организация W3C призывает
+            веб-разработчиков использовать HTML5 и CSS3 вместе, как часть одной новой волны современного веб-дизайна..
+        </div>
+        <div class=" antique">
+            Новое в CSS3:
+            Скруглённые рамки
+            border-radius
+            Тени блоков и тени текста
+            text-shadow
+            box-shadow
+            Анимация
+            transitions
+            transforms
+            Градиенты
+            linear-gradient
+            radial-gradient
+            repeating-linear-gradient
+            repeating-radial-gradient
+            Множественные бекграунды
+            background
+            Шрифты
+            @font-face
+            Литература
+            Differences from HTML4
+            Dive Into HTML5
+            HTML 5 Demos and Examples
+        </div>
+        <div class="header">CSS3</div>
+        <div class="rose">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi sequi, porro dignissimos
+            tempora ipsa veniam laboriosam. Quam earum veniam illum, officia voluptatum enim possimus? Omnis laudantium
+            velit facilis? Magnam nulla natus similique voluptates quisquam earum, dolore voluptatibus neque, iusto
+            porro facere eaque sit adipisci possimus reiciendis, debitis voluptatem dolorum consequuntur illum harum
+            blanditiis. Libero, ullam!
+        </div>
+    </div>
+
+</body>
+
+</html>
