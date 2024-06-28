@@ -1,0 +1,40 @@
+.i1 {
+    transition: transform;
+    width: 550px;
+    height: 300px;
+}
+
+.i1:hover {
+    transform: scale(0.5);
+
+}
+
+.i2 {
+    transition: transform;
+    width: 550px;
+    height: 300px;
+}
+
+.i2:hover {
+    transform: rotate(45deg);
+}
+
+.i3 {
+    transition: transform;
+    width: 550px;
+    height: 300px;
+}
+
+.i3:hover {
+    transform: translate(50px);
+}
+
+.i4 {
+    transition: transform;
+    width: 550px;
+    height: 300px;
+}
+
+.i4:hover {
+    transform: skew(-20deg);
+}

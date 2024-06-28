@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ролловер</title>
+    <style>
+        .nav li a {
+            background: url(facultet.png) no-repeat 0 0;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav>ul>li {
+            position: relative;
+            width: 180px;
+        }
+
+        .nav li {
+            display: inline;
+        }
+
+        .nav li a {
+            text-align: center;
+            display: inline-block;
+            border: 2px solid crimson;
+            background-color: snow;
+            padding: 8px;
+            text-decoration: none;
+            width: 180px;
+            height: 14px;
+        }
+
+        .nav li .drop-down {
+            visibility: hidden;
+            position: absolute;
+        }
+
+        .nav li:hover .drop-down {
+            visibility: visible;
+        }
+
+        .nav .it a:hover {
+            background-position: 0 -30px;
+        }
+
+        .nav .pim a:hover {
+            background-position: 0 -90px;
+        }
+
+        .nav .htit a:hover {
+            background-position: 0 -60px;
+        }
+
+        .nav li .drop-down a {
+            text-align: center;
+            width: 180px;
+            color: black;
+            background: none;
+            border-top: transparent;
+        }
+
+        .drop-down {
+            display: block;
+            right: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="https://belstu.by/">БГТУ</a></li>
+            <li class="it"><a href="https://it.belstu.by/">ИТ</a>
+                <ul class="drop-down">
+                    <li"><a href="https://isit.belstu.by/">ИСиТ</a>
+            </li>
+            <li"><a href="https://belstu.by/fakultety/fit/ivd/">ИиВД</a></li>
+                <li"><a href="https://www.belstu.by/fakultety/fit/pI">ПИ</a></li>
+        </ul>
+        </li>
+        <li class="pim"><a href="https://pim.belstu.by/">ПиМ</a></li>
+        <li class="htit"><a href="https://htit.belstu.by/">ХТиТ</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

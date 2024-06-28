@@ -1,0 +1,92 @@
+@keyframes photo1 {
+    0% {
+        transform: translateY(-80px);
+        transform: rotateY(50deg);
+    }
+
+    50% {
+        transform: translateX(160px);
+    }
+
+    100% {
+        transform: translateX(-275px);
+    }
+}
+
+@keyframes photo2 {
+    0% {
+        transform: translate(-80px);
+        transform: rotateY(50deg);
+
+    }
+
+    50% {
+        transform: translateX(120px);
+    }
+
+    100% {
+        transform: translateX(-180px);
+        filter: blur(10px);
+    }
+}
+
+@keyframes photo3 {
+    0% {
+        transform: rotateY(50deg);
+    }
+
+    50% {
+
+        transform: translateX(80px);
+    }
+
+    100% {
+        transform: translateX(-90px);
+        filter: grayscale(1);
+    }
+}
+
+@keyframes photo4 {
+    0% {
+        transform: rotateY(50deg);
+    }
+
+    50% {
+        transform: translateX(40px);
+    }
+
+    100% {
+
+        filter: invert(1);
+    }
+}
+
+img {
+    margin-right: -80px;
+    animation: 7s 5;
+}
+
+.img1 {
+    animation-name: photo1;
+
+}
+
+.img2 {
+    animation-name: photo2;
+
+}
+
+.img3 {
+    animation-name: photo3;
+
+}
+
+.img4 {
+    animation-name: photo4;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    perspective: 800px;
+}

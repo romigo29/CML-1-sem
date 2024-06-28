@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Выпадающий список</title>
+    <style>
+        nav>ul>li {
+            position: relative;
+        }
+
+        .nav ul {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .nav li a {
+            display: block;
+            border: 1px solid black;
+            background-color: yellow;
+            width: 200px;
+            height: 30px;
+            padding-top: 10px;
+            padding-left: 10px;
+            text-decoration: none;
+        }
+
+        .nav li .drop-down {
+            visibility: hidden;
+        }
+
+        .nav li:hover .drop-down {
+            visibility: visible;
+        }
+
+        a:link {
+            color: black;
+        }
+
+        .drop-down li a {
+            display: block;
+            border-width: 2px 2px 0 2px;
+            border-style: dashed;
+            border-color: black;
+            background-color: coral;
+            width: 100px;
+            height: 25px;
+        }
+
+        .nav li .drop-down :last-child a {
+            border-bottom-width: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a>Меню</a>
+                <ul class="drop-down">
+                    <li><a href="5_form.html">Форма</a></li>
+                    <li><a href="5_chess.html">Шахматы</a></li>
+                    <li><a href="7_5_animation5.html">Фотогалерея</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>

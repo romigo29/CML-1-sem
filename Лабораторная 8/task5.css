@@ -1,0 +1,143 @@
+@keyframes photo1 {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes photo2 {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes photo3 {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes photo4 {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes photo5 {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+img {
+    border: 10px double limegreen;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    animation: 5s linear infinite;
+}
+
+.img1 {
+    animation-name: photo1;
+}
+
+.img2 {
+    animation-name: photo2;
+}
+
+.img3 {
+    animation-name: photo3;
+}
+
+.img4 {
+    animation-name: photo4;
+}
+
+.img5 {
+    animation-name: photo5;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
