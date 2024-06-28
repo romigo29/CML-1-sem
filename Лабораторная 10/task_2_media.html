@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Медиазапрос</title>
+    <link href="D:\BSTU\КЯР\horizontal menu.css" rel="stylesheet">
+    <link href="task2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h4>Видео, статья и аудио</h4>
+        </div>
+
+    </div>
+    <div class="menu">
+        <div class="burger">
+            <input id="burger" type="checkbox">
+            <label for="burger">&#8801;</label>
+        </div>
+        <div class="menu_items">
+            <label><a href="#video">Видео</a></label>
+            <label><a href="#flexbox">Flexbox-верстка</a></label>
+            <label><a href="#audio">Аудио</a></label>
+        </div>
+    </div>
+    <div class="container">
+
+
+        <div class="video" id="video"><video src="ayaka.mp4" width="min-content" controls autoplay loop></video>
+            <video src="kazuha madness.mp4" width="min-content" controls autoplay loop></video>
+            <video src="60 rank.mp4" width="min-content" controls autoplay loop></video>
+        </div>
+        <div class="flexbox" id="flexbox">
+            <p>Flexbox разметка в CSS даёт один из наиболее эффективных способов расстановки, выравнивания
+                и распределения места между элементами внутри контейнера, даже если их размер неизвестен или динамичен
+                (собственно, по этому его и называют flex, от слова flexible, что по-английски имеет двойственное
+                значение —
+                гибкий и уступчивый, что очень сочетается с моделью поведения flexbox).
+
+                Основной целью flexbox является предоставление возможности изменения своих элементов по ширине и высоте,
+                для
+                того, чтобы они максимально эффективно умещались в доступном месте родительского контейнера, в частности
+                —
+                это удобно в тех случаях, когда нужно соответствовать всем типам дисплеев устройств и размерам экранов.
+                Flex
+                контейнер расширяет вложенные элементы для того, чтобы заполнить доступное пространство или же урезает
+                их,
+                чтобы избежать переполнения.</p>
+        </div>
+        <div class="audio" id="audio">
+            <p>The Starlit Past</p>
+            <audio src="Yu-Peng Chen, HOYO-MiX - The Starlit Past.mp3" controls></audio>
+            <p>Old Tales Past</p>
+            <audio src="Yu-Peng Chen, HOYO-MiX - Old Tales Preserved.mp3" controls>Old Tales Preserved</audio>
+            <p>On the Vast Earth</p>
+            <audio src="HOYO-MiX - On the Vast Earth.mp3" controls>On the Vast Earth</audio>
+        </div>
+    </div>
+</body>
+
+</html>
