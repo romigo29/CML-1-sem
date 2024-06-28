@@ -1,2 +1,2 @@
-# CML-1-sem
-Лабы по КЯР 1 сем
+# CML-1-sem-labs
+# CML - Computer Markup Languages (КЯР - Компьютерные языки разметки)
