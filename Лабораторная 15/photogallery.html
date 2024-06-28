@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Фотогалерея</title>
+    <style>
+        body {
+            background-color: linen;
+        }
+
+        figure {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        figcaption {
+            text-align: center;
+            font-family: Comic Sans MS;
+        }
+
+        img {
+            width: 300px;
+            height: 175px;
+        }
+
+        .form {
+            margin-left: 40%;
+        }
+
+        #description {
+            display: none;
+            margin-top: 0;
+            text-align: center;
+            width: 150px;
+        }
+
+        .row {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallery">
+        <figure id="photo1">
+            <p id="description">Это фото было сделано в один из прекрасных дней в игре. Оно навевает прекрасные
+                воспоминания.</p>
+            <img src="sunrise.png">
+            <figcaption>Sunrise</figcaption>
+        </figure>
+
+
+        <figure id="photo2">
+            <img src="day.png">
+            <figcaption>Day</figcaption>
+        </figure>
+
+        <figure>
+            <img src="sunset.png">
+            <figcaption>Sunset</figcaption>
+        </figure>
+
+        <figure id="photo4">
+            <img src="night.png">
+            <figcaption>Night</figcaption>
+        </figure>
+    </div>
+    <div class="form">
+        <form id="studentForm">
+            <h2>
+                <p>Данные студента</p>
+            </h2>
+            <div class="name">Имя студента</div>
+            <input name="name" placeholder="обязательно заполнить">
+            <br>
+
+            <div class="name">Отчество студента</div>
+            <input name="surname" placeholder="обязательно заполнить"><br>
+            <div class="name">Фамилия студента</div>
+            <input name="lastname" placeholder="обязательно заполнить"><br>
+
+            <div class="name">Адрес почты</div>
+            <input type="email" name="email"><br>
+
+            <div class="name">Контактный телефон</div>
+            <input type="tel" name="tel">
+            <br>
+
+            <div class="name">Какую социальную сеть вы используете?</div>
+            <p><input type="checkbox" name="VK">VK
+                <input type="checkbox" name="Facebook">Facebook
+                <input type="checkbox" name="Instagram">Instagram
+            </p>
+            <p><input type="button" value=" отправить " id="submitButton"></p>
+        </form>
+        <footer id="formOutput"></footer>
+    </div>
+    <script src="your_file_script.js"></script>
+</body>
+
+</html>
